@@ -1,0 +1,64 @@
+/* Configurações Gerais do Layout */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #1a252f;
+    color: #333;
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+/* Container Principal do Card */
+.card-container {
+    max-width: 650px;
+    background-color: #ffffff;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    border-top: 5px solid #c0392b;
+}
+
+/* Título */
+.card-title {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Parágrafos Justificados */
+.card-content p {
+    text-align: justify;
+    margin-bottom: 18px;
+    font-size: 15px;
+    color: #4a4a4a;
+}
+
+/* Rodapé e Botão */
+.card-footer {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.btn {
+    background-color: #c0392b;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #a93226;
+    transform: translateY(-2px);
+}

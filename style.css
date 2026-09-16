@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #e0f2fe; /* Azul Claro */
+  color: #000000; /* Preto */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background: linear-gradient(135deg, #0284c7, #22c55e); /* Azul Claro para Verde */
+  color: #ffffff; /* Branco */
+  text-align: center;
+  padding: 2.5rem 1rem;
+  border-bottom: 4px solid #f97316; /* Laranja */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-weight: 400;
+  font-size: 1.1rem;
+  opacity: 0.95;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 3rem 1rem;
+  flex: 1;
+}
+
+/* Remove a formatação padrão de link */
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card {
+  background: #ffffff; /* Branco */
+  border-radius: 15px;
+  padding: 2rem;
+  text-align: center;
+  width: 280px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  cursor: pointer;
+  border: 2px solid #38bdf8; /* Azul Claro */
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+  border-color: #f97316; /* Laranja ao passar o mouse */
+}
+
+.img-container {
+  width: 128px;
+  height: 132px;
+  margin: 0 auto 1.5rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-container img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.card h2 {
+  font-size: 1.4rem;
+  color: #000000; /* Preto */
+  margin-bottom: 0.3rem;
+}
+
+.card .subtitle {
+  font-size: 0.95rem;
+  color: #ea580c; /* Laranja */
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  background-color: #16a34a; /* Verde */
+  color: #ffffff; /* Branco */
+  border: none;
+  padding: 0.6rem 1.4rem;
+  border-radius: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.card:hover .btn {
+  background-color: #f97316; /* Laranja */
+  color: #ffffff;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #000000; /* Preto */
+  color: #ffffff; /* Branco */
+  font-size: 0.9rem;
+  border-top: 3px solid #16a34a; /* Verde */
+}

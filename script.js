@@ -5,6 +5,7 @@ function irParaSite(vetor) {
     rato: "https://meninotazz.github.io/Rato-F/"
   };
 
+  
   if (links[vetor]) {
     window.open(links[vetor], "_blank");
   }
